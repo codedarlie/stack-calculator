@@ -73,7 +73,7 @@ private:
                 return coords;
             }
             else {
-                throw "ошибка в giveTwoCoords";
+                throw "Ошибка в giveTwoCoords";
             }
         }
         return coords;
@@ -94,7 +94,7 @@ private:
                     return coords;
                 }
                 else {
-                    throw "ошибка в giveTwoCoords";
+                    throw "Ошибка в giveTwoCoords";
                 }
             }
             else if (DER[i] == "+" || DER[i] == "-" || DER[i] == "*" || DER[i] == "/" || DER[i] == "^") {
@@ -109,7 +109,7 @@ private:
                     return coords;
                 }
                 else {
-                    throw "ошибка в giveTwoCoords";
+                    throw "Ошибка в giveTwoCoords";
                 }
 
             }
@@ -123,11 +123,11 @@ private:
                     return coords;
                 }
                 else {
-                    throw "ошибка в giveTwoCoords";
+                    throw "Ошибка в giveTwoCoords";
                 }
             }
             else {
-                throw "ошибка в giveTwoCoords";
+                throw "Ошибка в giveTwoCoords";
             }
         }
         return coords;
